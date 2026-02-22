@@ -1,0 +1,12 @@
+[
+    {
+        "timestamp": "2024-05-20T10:00:01Z",
+        "level": "ERROR",
+        "message": "NullPointerException in PaymentService.java:145 \n at com.company.PaymentService.process(PaymentService.java:145)"
+    },
+    {
+        "timestamp": "2024-05-20T10:00:05Z",
+        "level": "WARN",
+        "message": "Transaction failed after 3 retries for user 7892"
+    }
+]

@@ -1,0 +1,4 @@
+Subject: Urgent: Site Down, Payment Gateway timeout
+From: alerting@company.com
+
+We are seeing a huge spike in 500 errors on the checkout page. Customers cannot complete their orders. Logs indicate a NullPointerException in the PaymentService.

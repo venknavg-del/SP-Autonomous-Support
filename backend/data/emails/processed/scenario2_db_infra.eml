@@ -1,0 +1,28 @@
+Content-Type: multipart/related;
+ boundary="===============1817381104305020183=="
+MIME-Version: 1.0
+Subject: Severity 2: Application Unresponsive, DB Timeouts
+From: pagerduty@company.com
+To: support@company.com
+
+--===============1817381104305020183==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+Automated Alert: Database connection pool utilization has been consistently above 95% threshold for the last 15 minutes.
+Application nodes are throwing connection timeout exceptions.
+Please review the attached DB Metrics graph.
+
+--===============1817381104305020183==
+Content-Type: image/png
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-ID: <db_metrics_chart>
+Content-Disposition: inline; filename="db_chart.png"
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6
+kgAAAABJRU5ErkJggg==
+
+--===============1817381104305020183==--

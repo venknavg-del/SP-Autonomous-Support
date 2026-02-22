@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2024-05-20T11:15:00Z",
+    "level": "WARN",
+    "message": "HikariPool-1 - Connection is not available, request timed out after 30000ms."
+  },
+  {
+    "timestamp": "2024-05-20T11:15:05Z",
+    "level": "ERROR",
+    "message": "Failed to authenticate user: db connection timeout"
+  }
+]

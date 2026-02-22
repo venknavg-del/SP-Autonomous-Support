@@ -1,0 +1,48 @@
+{
+    "name": "sp-autonomous-support",
+    "displayName": "SP Autonomous Support",
+    "description": "AI-powered production support — uses GitHub Copilot LLM to analyze incidents, correlate Jira tickets, and recommend runbooks.",
+    "version": "0.1.0",
+    "publisher": "subrahinnovations",
+    "engines": {
+        "vscode": "^1.90.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "spSupport.startProxy",
+                "title": "SP Support: Start LLM Proxy"
+            },
+            {
+                "command": "spSupport.stopProxy",
+                "title": "SP Support: Stop LLM Proxy"
+            },
+            {
+                "command": "spSupport.status",
+                "title": "SP Support: Show Status"
+            }
+        ]
+    },
+    "extensionDependencies": [
+        "github.copilot"
+    ],
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "lint": "eslint src --ext ts"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.90.0",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.5.0",
+        "eslint": "^8.57.0"
+    }
+}

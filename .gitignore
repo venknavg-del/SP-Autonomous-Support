@@ -1,0 +1,15 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Data (keep structure, ignore sample data)
+# data/

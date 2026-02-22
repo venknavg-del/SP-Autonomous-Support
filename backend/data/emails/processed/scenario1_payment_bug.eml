@@ -1,0 +1,28 @@
+Content-Type: multipart/related;
+ boundary="===============2457917935366451346=="
+MIME-Version: 1.0
+Subject: Urgent: Site Down, Payment Gateway timeout
+From: alerting@company.com
+To: support@company.com
+
+--===============2457917935366451346==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+We are seeing a huge spike in 500 errors on the checkout page. Customers cannot complete their orders.
+Logs indicate a NullPointerException in the PaymentService.
+See the attached screenshot of the error rate spike.
+
+--===============2457917935366451346==
+Content-Type: image/png
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-ID: <error_rate_chart>
+Content-Disposition: inline; filename="chart.png"
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmM
+IQAAAABJRU5ErkJggg==
+
+--===============2457917935366451346==--
